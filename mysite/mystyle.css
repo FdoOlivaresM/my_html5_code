@@ -1,0 +1,11 @@
+h1 {
+    color: cadetblue;
+    font-style: italic;
+    font-size: 140%;
+    text-align: center;
+}
+
+h2 {
+    color: cadetblue;
+    background: goldenrod;
+}
