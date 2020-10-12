@@ -1,11 +1,98 @@
-h1 {
-    color: cadetblue;
-    font-style: italic;
-    font-size: 140%;
-    text-align: center;
+body {
+    /* margin: 0; */
+    /* padding: 1em; */
+    background: #4a4a4a;
+    color: rgb(200, 211, 211);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.4em;
+    margin: 0;
 }
 
-h2 {
-    color: cadetblue;
-    background: goldenrod;
+h1 {
+    
+    text-align: center;
+    margin-bottom: 1.4em;
+    line-height: 1.2em;
+}
+
+p {
+    /* width: 85%; */
+    
+    /* align-content: center; */
+    margin-bottom: 1.6em;
+}
+
+.container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+
+
+.header {
+    background: rgb(200, 211, 211);;
+    color: darkgray;
+    padding: 2rem 0;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.header a {
+    color: black;
+    text-decoration: none;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    letter-spacing: 18px;
+    font-size: 1.3em;
+    transition: all 0.4s linear;
+}
+
+.logo:hover {
+    background: beige;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+}
+
+.navigation ul li a:hover {
+    /* font-size: 120%; */
+    color: white;
+    background: #ccc;
+}
+
+.main {
+    padding-top: 8rem;
+}
+footer {
+    height: 60px;
+    background: cornsilk;
+    padding: 2rem 0;
+    color: #4a4a4a;
+    text-align: center;
 }
